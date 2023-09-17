@@ -1,20 +1,17 @@
 #include "main.h"
-
-/************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a string
- * @c: char types.
+ * handle_write_char - Fubnction that Prints a string
+ * @c: char type.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
- *
- * Return: Number of chars printed.
+ * Return: Number of chars
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
-{ /* char is stored at left and paddind at buffer's right */
+{
 	int i = 0;
 	char padd = ' ';
 
@@ -44,9 +41,8 @@ int handle_write_char(char c, char buffer[],
 	return (write(1, &buffer[0], 1));
 }
 
-/************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
+ * write_number - Function to Print a string
  * @is_negative: Lista of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
