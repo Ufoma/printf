@@ -10,8 +10,8 @@
  * @precision: Precision specification of formatted string
  * @size: Size specifier
  *
- *This function prints out argument based on its type as specified
- *
+ *This function prints out argument based on its type as specified.
+ *It iterates through the format string and uses format types
  *
  * Return: 1 if successful or 2 if an error occurs or -1 if an unknown
  * specifier is encountered
