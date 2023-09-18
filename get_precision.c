@@ -11,7 +11,7 @@
 int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_i = *i + 1;
-	int precision = -1;
+	int precision = -1; 
 
 	if (format[curr_i] != '.')
 		return (precision);
@@ -32,7 +32,7 @@ int get_precision(const char *format, int *i, va_list list)
 			break;
 		}
 		else
-			break;
+			break; /* exits loop if an unsupported character is found */
 	}
 
 	*i = curr_i - 1;
