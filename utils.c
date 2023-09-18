@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * is_printable - This function Evaluates if a char is printable
- * @c: The Char to be evaluated.
+ * is_printable - checks if a char is printable
+ * @c: The Character to be evaluated.
  * Return: 1 if c is printable, 0 otherwise
  */
 int is_printable(char c)
@@ -17,8 +17,8 @@ int is_printable(char c)
  * append_hexa_code - Append ascci in hexadecimal code to buffer
  * @buffer: Array of chars.
  * @i: Index at which to start appending.
- * @ascii_code: ASSCI CODE.
- * Return: Always 3
+ * @ascii_code: ASCII CODE.
+ * Return: Always brings 3
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {
@@ -39,6 +39,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 /**
  * is_digit - Function that Verifies if a char is a digit
  * @c: The Char to be evaluated
+ *
  * Return: 1 if c is a digit, 0 otherwise
  */
 int is_digit(char c)

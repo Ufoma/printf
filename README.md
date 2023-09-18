@@ -11,4 +11,5 @@ TASKS
 8. Handle the 0 flag character for non-custom conversion specifiers.
 9. Handle the - flag character for non-custom conversion specifiers.
 
-Note: This task adheres betty style and has the prototype/ header files in the main.h file
+Note: This task adheres to the betty style linter
+and has the prototype/ header files in the main.h file

@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * handle_write_char - Fubnction that Prints a string
+ * handle_write_char - Function that Prints a string
  * @c: char type.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
- * @width: get width.
+ * @width: get width specifier for formatting
  * @precision: precision specifier
  * @size: Size specifier
- * Return: Number of chars
+ * Return: Number of characters
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -43,12 +43,12 @@ int handle_write_char(char c, char buffer[],
 
 /**
  * write_number - Function to Print a string
- * @is_negative: Lista of arguments
+ * @is_negative: List of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: precision specifier
+ * @flags:  flag indicating formatting options
+ * @width: get width specifier for formatting
+ * @precision: precision specifier formatting
  * @size: Size specifier
  *
  * Return: Number of chars printed.
