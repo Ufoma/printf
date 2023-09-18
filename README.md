@@ -1,4 +1,7 @@
 0x11. C printf Group project- by MK and Diamond 
+
+Created by DIAMOND built by MK_MOSHOOD
+
 TASKS
 0. A function that produces output according to a format
 1. Handle given conversion specifiers
