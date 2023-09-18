@@ -6,11 +6,15 @@
  * @ind: ind.
  * @buffer: Buffer array to handle print.
  * @flags: Calculates active flags
- * @width: get width.
+ * @width: get width for formatting
  * @precision: Precision specification of formatted string
  * @size: Size specifier
  *
- * Return: 1 if successful or 2 if an error occurs;
+ *This function prints out argument based on its type as specified
+ *
+ *
+ * Return: 1 if successful or 2 if an error occurs or -1 if an unknown
+ * specifier is encountered
  */
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size)
