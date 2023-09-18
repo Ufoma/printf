@@ -3,7 +3,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
- * @types: List of arguments
+ * @types: List of arguments to be formatted
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
