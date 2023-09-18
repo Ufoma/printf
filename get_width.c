@@ -6,6 +6,8 @@
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
+ *This function calculates the width used for formatting the printed output.
+ *
  * Return: The calculated width.
  */
 int get_width(const char *format, int *i, va_list list)
