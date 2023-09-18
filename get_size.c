@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * get_size - Calculates the size to cast the argument
+ * get_size - Detemines the size specifier for argument casting
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
+ *
+ *This function calculates the size specifier for argument casting based on
+ *the format string. It checks for 'l' for long and 'h' for short sizes.
  *
  * Return: Precision of argument.
  */
