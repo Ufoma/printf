@@ -6,11 +6,11 @@
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates flags that are active
- * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
+ * @width: get width specifier for formatting
+ * @precision: Precision specification for the pinter variable
+ * @size: Size specifier for the pointer variable
  *
- * Return: Number of characters to be printed.
+ * Return: Number of characters printed.
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -59,10 +59,11 @@ int print_pointer(va_list types, char buffer[],
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculate flags that are active
- * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @width: get width for formatting
+ * @precision: Precision specification format
+ * @size: Size specifier for formatting
+ *
+ * Return: Number of characters printed
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -102,7 +103,8 @@ int print_non_printable(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of chars printed
+ *
+ * Return: Numbers of characters printed
  */
 
 int print_reverse(va_list types, char buffer[],
